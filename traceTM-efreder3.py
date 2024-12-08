@@ -81,7 +81,7 @@ def bfs(start, accept, reject, transitions, input, max_steps):
     """
     Performs a breadth-first search (BFS) to simulate the Turing machine's operation. The function 
     will return if it finds an accepting state or exhausts all possible configurations 
-    
+
     """
 
     total = 0
@@ -156,9 +156,9 @@ def main():
 
         # output results
         print(f"\nMachine: {name}")
-        print(f"Initial input string: {input_string}")
-        print(f"Depth of the tree of configurations: {steps}")
-        print(f"Total transitions: {total}")
+        print(f"Input String: {input_string}")
+        print(f"Depth: {steps}")
+        print(f"Transitions: {total}")
 
         if check:
             print(f"\nString accepted in {steps} steps.")
