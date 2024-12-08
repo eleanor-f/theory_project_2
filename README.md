@@ -1,2 +1,2 @@
-# theory_project_2
+# Tracing TM
 NTM Tracing project for theory of computing. 
